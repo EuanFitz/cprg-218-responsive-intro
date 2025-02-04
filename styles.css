@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(175, 125, 221);
+}
+@media screen and (max-width:500px){ /*Any screen resolution from 0-500px*/
+    body{
+        background-color: rgb(231, 101, 101);
+        font-size: 130%;
+    }
+}
+@media screen and (max-width:400px){
+    body{
+        background-color:rgb(97, 137, 209);
+  }
+}
