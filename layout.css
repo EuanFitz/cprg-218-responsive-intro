@@ -21,7 +21,10 @@ header{
 
 main{
     grid-area:main;
+}
+#desktop{
 
+    border: 1px solid purple;
 }
 
 nav{
@@ -46,6 +49,7 @@ footer{
     }
     #desktop{
         display: none;
+        border: 1px solid purple;
     }
 
 }
